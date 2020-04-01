@@ -17,10 +17,12 @@ while 1:
         pydirectinput.press(keys[i])
         healAndUp()
     healAndUp()
+    #AntyBOT {
     pydirectinput.moveTo(1000, 1000)
     time.sleep(0.5)
     pydirectinput.moveTo(795, 597)
     pydirectinput.click()
+    #}
     now = int(time.time())
 
     if now - was >= 30:
