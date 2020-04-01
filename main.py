@@ -25,6 +25,7 @@ while 1:
     #}
     now = int(time.time())
 
+    #Use hood every 30s
     if now - was >= 30:
         was = int(time.time())
         pydirectinput.press("2")
